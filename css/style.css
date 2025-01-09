@@ -1,0 +1,277 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');
+
+body{
+    background-color: #e9ecef;
+}
+
+/* Table row hover effect */
+.table-hover tbody tr:hover {
+    background-color: #f1f1f1;
+    cursor: pointer;
+}
+
+#blog-body {
+    margin-top: 5%;
+    background-color: white;
+    border: 1px solid #e9ecef;
+    padding: 3%;
+}
+
+footer.footer {
+    margin-top: auto;
+    padding: 10px 0;
+    background-color: #f8f9fa;
+    border-top: 1px solid #e9ecef;
+}
+
+/* Normal body text */
+.body-normal {
+    font-family: 'lmroman17-regular';
+    font-size: 20px;
+    line-height: 1.5;
+    color: #333;
+}
+
+/* Large body text */
+.body-large {
+    font-family: 'lmroman12-regular';
+    font-size: 30px;
+    line-height: 1.5;
+    color: #333;
+}
+
+/* Small body text */
+.body-small {
+    font-family: 'lmroman10-regular';
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+}
+
+/* Center aligned text */
+.text-center {
+    text-align: center;
+}
+
+/* Right aligned text */
+.text-right {
+    text-align: right;
+}
+
+/* Justified text */
+.text-justify {
+    text-align: justify;
+}
+
+/* Bold text */
+.text-bold {
+    font-family: 'lmroman10-bold';
+    font-weight: bold;
+}
+
+/* Italic text */
+.text-italic {
+    font-family: 'lmroman10-italic';
+    font-style: italic;
+}
+
+/* Bold Italic text */
+.text-bold-italic {
+    font-family: 'lmroman10-bolditalic';
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'lmroman10-bold';
+    src: url('font/lmroman10-bold.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'lmroman10-bolditalic';
+    src: url('font/lmroman10-bolditalic.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'lmroman10-italic';
+    src: url('font/lmroman10-italic.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'lmroman10-regular';
+    src: url('font/lmroman10-regular.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'lmroman12-bold';
+    src: url('font/lmroman12-bold.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'lmroman12-italic';
+    src: url('font/lmroman12-italic.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'lmroman12-regular';
+    src: url('font/lmroman12-regular.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'lmroman17-regular';
+    src: url('font/lmroman17-regular.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'lmroman5-bold';
+    src: url('font/lmroman5-bold.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'lmroman5-regular';
+    src: url('font/lmroman5-regular.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'lmroman6-bold';
+    src: url('font/lmroman6-bold.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'lmroman6-regular';
+    src: url('font/lmroman6-regular.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'lmroman7-bold';
+    src: url('font/lmroman7-bold.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'lmroman7-italic';
+    src: url('font/lmroman7-italic.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'lmroman7-regular';
+    src: url('font/lmroman7-regular.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'lmroman8-bold';
+    src: url('font/lmroman8-bold.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'lmroman8-italic';
+    src: url('font/lmroman8-italic.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'lmroman8-regular';
+    src: url('font/lmroman8-regular.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'lmroman9-bold';
+    src: url('font/lmroman9-bold.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'lmroman9-italic';
+    src: url('font/lmroman9-italic.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'lmroman9-regular';
+    src: url('font/lmroman9-regular.otf') format('opentype');
+}
+
+/* Add more @font-face rules for other fonts as needed */
+
+/* Example CSS classes using the fonts */
+.font-lmroman10-bold {
+    font-family: 'lmroman10-bold';
+}
+
+.font-lmroman10-bolditalic {
+    font-family: 'lmroman10-bolditalic';
+}
+
+.font-lmroman10-italic {
+    font-family: 'lmroman10-italic';
+}
+
+.font-lmroman10-regular {
+    font-family: 'lmroman10-regular';
+}
+
+.font-lmroman12-bold {
+    font-family: 'lmroman12-bold';
+}
+
+.font-lmroman12-italic {
+    font-family: 'lmroman12-italic';
+}
+
+.font-lmroman12-regular {
+    font-family: 'lmroman12-regular';
+}
+
+.font-lmroman17-regular {
+    font-family: 'lmroman17-regular';
+}
+
+.font-lmroman5-bold {
+    font-family: 'lmroman5-bold';
+}
+
+.font-lmroman5-regular {
+    font-family: 'lmroman5-regular';
+}
+
+.font-lmroman6-bold {
+    font-family: 'lmroman6-bold';
+}
+
+.font-lmroman6-regular {
+    font-family: 'lmroman6-regular';
+}
+
+.font-lmroman7-bold {
+    font-family: 'lmroman7-bold';
+}
+
+.font-lmroman7-italic {
+    font-family: 'lmroman7-italic';
+}
+
+.font-lmroman7-regular {
+    font-family: 'lmroman7-regular';
+}
+
+.font-lmroman8-bold {
+    font-family: 'lmroman8-bold';
+}
+
+.font-lmroman8-italic {
+    font-family: 'lmroman8-italic';
+}
+
+.font-lmroman8-regular {
+    font-family: 'lmroman8-regular';
+}
+
+.font-lmroman9-bold {
+    font-family: 'lmroman9-bold';
+}
+
+.font-lmroman9-italic {
+    font-family: 'lmroman9-italic';
+}
+
+.font-lmroman9-regular {
+    font-family: 'lmroman9-regular';
+}
+
+/* Add more CSS classes for other fonts as needed */
